@@ -1,0 +1,103 @@
+---
+title: "Exploratory Data Analysis"
+subtitle: "MSBA Capstone"
+format: 
+  revealjs:
+    logo: Accessibility DESB.png
+    incremental: false
+    footer: "https://github.com/utah-msba-capstone/EDA.git"
+---
+
+## Exploratory Data Analysis
+
+![Published in 1977. Over 600 pages of manual EDA techniques.](tukey.png){width="350" height="500"}
+
+## EDA is Detective Work
+
+"A detective investigating a crime needs both tools and understanding. If he has no fingerprint print powder, he will fail to find fingerprints on those services. If he does not understand where the criminal is likely to have put his fingers, he will not look in the right places. Equally, the analyst of data needs both tools and understanding." -- John Tukey
+
+So, **tools** and **understanding**.
+
+## Understanding
+
+-   How do we "look in the right places"?
+-   **We need some sense of what happened and what we are looking for!** EDA is not a mechanical process.
+-   EDA should be *strategic*, proceeding from a sense of the business context and the analytic objectives.
+-   Determine:
+    -   What is the business problem? (And: what would a solution look like?)
+    -   Target variable?
+    -   Is the end goal explanation or prediction?
+    
+## Aside: Process vs. Goal
+Data exploration is a necessary process for a project with either an explanatory or a predictive goal.
+
+:::{.panel-tabset}
+
+### Exploratory
+
+- What we do to understand the data prior to formal modeling
+- What is noteworthy or interesting?
+- Test hypotheses about relationships---what causes what in this domain?
+- Investigate data quality. Are there problems you need to better understand or fix? 
+
+### Explanatory
+
+- Inferential methods used to explain the influence of a predictor on the quantity of interest.  (With regression, explanation would rely on coefficients and standard errors.) 
+- Exploratory analysis has already uncovered some  insights
+- Narrower, confirmatory focus compared to exploratory analysis
+- Fewer/higher quality visualizations
+
+### Predictive
+
+- Primary goal is predictive performance 
+- Black box models are fine
+- Models will often have a larger feature set (not limited by interpretability)
+- Models require careful tuning of hyperparameters to optimize a specific error metric
+:::
+    
+## Brainstorm  
+
+How might we frame the **business problem** for the Google Merchandise Store project?
+
+Given the problem, what might the solution look like? (Beware of solutions looking for problems!)
+
+
+
+## Brainstorm  
+
+What is the **target variable**? 
+
+The target is the data representation of the phenomenon we are interested in understanding or modeling or predicting.
+
+## Brainstorm  
+
+What is our **end goal**--- explanation or prediction? 
+
+## The EDA Process
+
+![h/t Jeremy Morris](eda.png)
+
+## The EDA Process
+
+1. Frame the business problem and the analytic problem
+2. Identify modeling objectives
+3. List hypotheses to explore, or questions to answer
+4. Do EDA---visualize, summarize, transform.
+
+## Brainstorm
+
+What hypotheses or questions could we use to structure EDA for the Google Merchandise project? 
+
+Often, exploring a hypothesis or answering a question will lead to further ideas/questions. The EDA process rewards creativity and critical thinking.
+
+## Tools
+
+"Equally, the analyst of data needs both tools and understanding."
+
+Tools for EDA are limited only by the skillset of the analyst, but here are several of the most important ones for clearing away the noise.
+
+- histograms
+- boxplots
+- log transformations
+- binning numeric features
+- smoothing
