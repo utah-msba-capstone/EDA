@@ -14,7 +14,7 @@ format:
 
 ## EDA is Detective Work
 
-"A detective investigating a crime needs both tools and understanding. If he has no fingerprint print powder, he will fail to find fingerprints on those services. If he does not understand where the criminal is likely to have put his fingers, he will not look in the right places. Equally, the analyst of data needs both tools and understanding." -- John Tukey
+"A detective investigating a crime needs both tools and understanding. If he has no fingerprint print powder, he will fail to find fingerprints on most surfaces. If he does not understand where the criminal is likely to have put his fingers, he will not look in the right places. Equally, the analyst of data needs both tools and understanding." -- John Tukey
 
 So, **tools** and **understanding**.
 
