@@ -21,10 +21,10 @@ So, **tools** and **understanding**.
 ## Understanding
 
 -   How do we "look in the right places"?
--   **We need some sense of what happened and what we are looking for!** EDA is not a mechanical process.
+-   **We need some sense of what happened and what we are looking for!** EDA is not a mechanical process!
 -   EDA should be *strategic*, proceeding from a sense of the business context and the analytic objectives.
 -   Determine:
-    -   What is the business problem? (And: what would a solution look like?)
+    -   What is the business problem? (And: what would a viable solution look like?)
     -   Target variable?
     -   Is the end goal explanation or prediction?
     
@@ -42,7 +42,7 @@ Data exploration is a necessary process for a project with either an explanatory
 
 ### Explanatory
 
-- Inferential methods used to explain the influence of a predictor on the quantity of interest.  (With regression, explanation would rely on coefficients and standard errors.) 
+- Methods used to explain the influence of a predictor on the quantity of interest.  (With regression, explanation would rely on coefficients and standard errors.) 
 - Exploratory analysis has already uncovered some  insights
 - Narrower, confirmatory focus compared to exploratory analysis
 - Fewer/higher quality visualizations
@@ -52,7 +52,7 @@ Data exploration is a necessary process for a project with either an explanatory
 - Primary goal is predictive performance 
 - Black box models are fine
 - Models will often have a larger feature set (not limited by interpretability)
-- Models require careful tuning of hyperparameters to optimize a specific error metric
+- Models require careful tuning of hyperparameters to avoid overfitting and optimize a specific error metric
 :::
     
 ## Brainstorm  
@@ -79,16 +79,16 @@ What is our **end goal**--- explanation or prediction?
 
 ## The EDA Process
 
-1. Frame the business problem and the analytic problem
-2. Identify modeling objectives
-3. List hypotheses to explore, or questions to answer
+1. Frame the business and analytic problems
+2. Identify project objectives
+3. List hypotheses to explore, questions to answer
 4. Do EDA---visualize, summarize, transform.
 
 ## Brainstorm
 
 What hypotheses or questions could we use to structure EDA for the Google Merchandise project? 
 
-Often, exploring a hypothesis or answering a question will lead to further ideas/questions. The EDA process rewards creativity and critical thinking.
+Often, exploring a hypothesis or answering a question will lead to further ideas/questions. The EDA process in this way rewards creativity and critical thinking.
 
 ## Tools
 
@@ -101,3 +101,4 @@ Tools for EDA are limited only by the skillset of the analyst, but here are seve
 - log transformations
 - binning numeric features
 - smoothing
+
